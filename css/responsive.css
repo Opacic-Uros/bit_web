@@ -1,0 +1,28 @@
+/*General*/
+
+* {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+body {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    float: right;
+}
+
+#imgOne {
+    width: 100%;
+    height: 300px;
+}
+

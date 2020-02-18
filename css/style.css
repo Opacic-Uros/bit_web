@@ -1,0 +1,46 @@
+#container {
+    width: 100%;
+    margin: auto;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header img {
+    float: left;
+    width: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#main {
+    margin-top: 50px;
+}
+
+#sectionOne {
+    width: 45%;
+    float: left;
+    margin-left: 25px;
+}
+
+#sectionTwo {
+    width: 45%;
+    float: right;
+    border-left: 2px solid;
+    padding-left: 34px;
+    margin-right: 25px;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
