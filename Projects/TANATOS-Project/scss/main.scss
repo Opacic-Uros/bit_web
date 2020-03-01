@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+/*     HEADER */
+.header {
+  position: relative;
+  width: 100%;
+  #main_image {
+    width: 100%;
+  }
+}
+.nav-bar {
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  .navbar_wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  span {
+    color: rgb(247, 117, 10);
+  }
+  h4 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}
+.headline {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    margin-top: 150px;
+  }
+  h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    span {
+      color: rgb(247, 117, 10);
+    }
+  }
+  p {
+    font-size: 24px;
+    width: 60%;
+    text-align: center;
+  }
+  button {
+    background-color: none;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+  }
+  button:hover {
+    background-color: rgb(247, 117, 10);
+    color: white;
+    cursor: pointer;
+  }
+}
+.button-flex {
+  margin-top: 4%;
+}
+/*   DESIGN */
+
+.main {
+  width: 100%;
+}
+.main-flex {
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.icons {
+  width: 150px;
+  height: 150px;
+  border: 1px solid gray;
+  border-radius: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  h5 {
+    margin: 30px auto;
+  }
+  p {
+    width: 55%;
+  }
+}
+/* SUBSCRIBE */
+
+.subscribe {
+  width: 100%;
+  background-image: url(../img/newsletter-background.jpg);
+  height: 250px;
+}
+
+.subscribe-buttons {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+
+  button {
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgb(247, 117, 10);
+    color: white;
+    margin-left: 30px;
+  }
+
+  input {
+    width: 500px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding-left: 30px;
+  }
+}
+/*OUR WORKS */
+
+.our_works {
+  width: 100%;
+
+}
+.ourWorksHeadline {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+
+  h5 {
+    font-size: 35px;
+  }
+  span {
+    color:rgb(247, 117, 10);
+  }
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  img {
+    margin: 1%;
+    width: 27%;
+  }
+}
