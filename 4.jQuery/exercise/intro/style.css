@@ -1,4 +1,4 @@
-.about {
+/* .about {
   border-bottom: 1px solid;
 }
 .to-upper-case {
@@ -9,4 +9,10 @@
 }
 .bg-color {
   background-color: chocolate;
+} */
+.selected {
+  border: 5px solid red;
+}
+div img {
+  width: 33%;
 }
